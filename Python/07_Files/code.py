@@ -1,7 +1,11 @@
-f = open("sample.txt", "r");
+# f = open("sample.txt", "r");
 
-data = f.read()
+# data = f.read()
 
-print(data)
+# print(data)
 
-f.close()
+# f.close
+
+import os
+
+os.remove("sample.txt")
